@@ -9,7 +9,8 @@ function ArticleList({posts}){
     <Article 
         key={post.id}
         title={post.title}
-        articleDate={post.articleDate}
+        articleDate={post.date}
+        minutes={post.minutes}
         preview={post.preview}
     />
     )); 
